@@ -1,0 +1,114 @@
+/*Define your font styles here*/
+@font-face{
+
+	font-family:PlayfairDisplay-Regular;
+	src: url(PlayfairDisplay-Regular.otf);
+}
+
+@font-face{
+
+	font-family:samantha;
+	src: url(samantha.ttf);
+}
+@font-face{
+	font-family:TOMMYMediumOutline;
+	src: url(TOMMYMediumOutline.otf);
+}
+
+@font-face{
+	font-family:PlayfairDisplay-Bold;
+	src: url(PlayfairDisplay-Bold.otf);;
+}
+@font-face{
+	font-family:MADETOMMYMedium;
+	src: url(MADETOMMYMedium.otf);;
+}
+
+/*Style your page here*/
+body{
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: #FFEFEF;
+	font-family:PlayfairDisplay-Regular;
+
+}
+
+
+h1{
+
+	font-family:TOMMYMediumOutline;
+	font-size: 70px;
+
+}
+
+h2{
+	font-family:samantha;
+	font-size: 43px;
+	color:#D07B7B;
+}
+ 
+
+h3{
+
+	font-family:PlayfairDisplay-Bold;
+	font-size:20px;
+	text-decoration: underline;
+	letter-spacing:2px;
+	
+}
+
+ul{
+	list-style-position: inside;
+
+}
+
+}
+ol {
+  list-style: none;
+  counter-reset: my-counter;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+}
+ol li {
+
+  counter-increment: my-counter;
+  display: inline-flex;
+  width: 45%;
+  font-size: 0.87rem;
+  margin-bottom: .3rem;
+  margin-left:3.7rem;
+  font-weight: bold;
+}
+ol li::before {
+  content: " " counter(my-counter);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 3.7rem;
+  font-family:TOMMYMediumOutline;
+  line-height: 1.5;
+  
+}
+
+.last {
+
+	font-size:25px;
+	letter-spacing:4px;
+	padding-right: 600px;
+}
+
+
+blockquote {
+
+	font-family:MADETOMMYMedium;
+	font-size: 40px;
+	color:#D07B7B;
+	padding-bottom: 20px;
+
+	
+}
+
+}
+
+}
